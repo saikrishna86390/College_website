@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+img {
+  border: 1px solid red;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+h1 {
+  position: absolute;
+  top: 1px;
+  left: 35%;
+}
+h2 {
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.logbtn {
+  background-color: aqua;
+  border-radius: 20px;
+  position: relative;
+  left: 70%;
+  top: -80px;
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+}
+.headname {
+  background-color: aquamarine;
+  height: 140px;
+  border-bottom: 1px solid black;
+}
+.navlist {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  top: 110px;
+  left: 20%;
+  color: rgb(234, 234, 241);
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav,
+ul.navlist {
+  border: 1px solid green;
+  background-color: black;
+}
+.sidenav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.snh {
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 90px;
+}
+.snav {
+  height: auto;
+  width: 300px;
+  border: 1px solid red;
+  background-color: burlywood;
+}
+.a {
+  background-color: antiquewhite;
+  height: 50px;
+  text-align: center;
+}
+.b {
+  background-color: aqua;
+  height: 50px;
+  text-align: center;
+}
+ul.sidenav {
+  margin: 36px;
+  padding: 0;
+}
+
+.dephead {
+  position: absolute;
+  top: 170px;
+  left: 320px;
+}
+
+p {
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  top: 210px;
+  left: 350px;
+  font-size: 20px;
+}
+.fac {
+  position: absolute;
+  top: 400px;
+  left: 324px;
+}
+.faccard {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  left: 358px;
+  top: 438px;
+  justify-content: space-between;
+  gap: 50px;
+}
+.f {
+  height: 380px;
+  width: 200px;
+  border: 1px solid black;
+}
+.facp {
+  border: 1px solid green;
+  margin-left: 50px;
+}
+h3 {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(189, 192, 244);
+  display: flex;
+  gap: 100px;
+}
+.fd {
+  position: relative;
+  justify-content: space-between;
+  justify-items: center;
+  left: 100px;
+
+  width: 200px;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+  position: relative;
+  gap: 20px;
+}
+.fi {
+  position: relative;
+  left: 40px;
+}
